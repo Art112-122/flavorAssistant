@@ -5,11 +5,11 @@ from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
-from command import (
+from app.command import (
     BOT_START_COMMAND
 )
-from state import State_Reg
-from connection import get_mysql_connection, create_tables
+from app.state import State_Reg
+from app.connection import get_mysql_connection, create_tables
 from dotenv import load_dotenv
 
 import aiomysql
