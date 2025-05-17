@@ -68,7 +68,7 @@ async def age_reg(message: Message, state: FSMContext) -> None:
                 await message.answer(
                     f"Great! Reregistration completed! Let's find a movie, song, or book for you.\n"
                     f"For more accurate results, specify a genre!\n"
-                    f"{html.bold('Example:')} Action film about vampires"
+                    f"{html.bold('Example:')} Action film about vampires\n"
                     f"{html.bold('REMEMBER! Bot can make mistakes')}")
                 await state.clear()
             else:
