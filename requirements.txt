@@ -1,0 +1,6 @@
+aiogram
+dotenv
+asyncio
+cohere
+aiomysql
+cryptography
