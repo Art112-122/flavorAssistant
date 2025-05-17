@@ -51,7 +51,7 @@ python main.py
 flavorAssistant/
 ├── app/
 │   ├── command/       # Команди
-│   ├── connection/      # Інлайн та Reply-клавіатури
+│   ├── connection/      # Підключення бази данних
 │   ├── state/         # FSM-стани
 |   ├── .env/          # Приклад конфігураційного файлу
 │   └── /         
@@ -64,5 +64,5 @@ flavorAssistant/
 - Python 3.12+
 - [aiogram](https://github.com/aiogram/aiogram)
 - python-dotenv
-- MYSQL (AIO)
+- [MYSQL](https://www.mysql.com/) ([aio](https://github.com/aio-libs/aiomysql))
 - Структурована FSM
